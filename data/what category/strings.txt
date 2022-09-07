@@ -1,0 +1,11 @@
+(is (it|(th|d)is)( normal)? (aa|all (advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set( )?seed|any%))
+
+(((we )?doin(g)?|((th|d)is)( is)?|it is) ((an )?aa|(an )?all (advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set( )?seed|any%)( (speed( )?)?r(u|e)n(s)?)?( | chat|, right| today)?(\?)+)
+
+((are|is) (((th|d)is)|(yo)?u|he) (doing|running|playing|going for) ((an )?aa|(an )?all (advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set( )?seed|any%))
+
+((which|w(h)?at(([\W_]?s?| is)( the)?)?) (cat(egory)?|type( of)? (speed( )?)?r(u|e)n(s)?|(speed( )?)?r(u|e)n type|(speed( )?)?r(u|e)n is this))
+
+(w(h)?at (are ((yo)?u|we)|((speed( )?)?(r(u|e)n(s)?) )is he) ((speed)?running|playing|doin(g)?))
+
+(^(aa|all (advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set( )?seed|any%)( )?(\?)+$)
