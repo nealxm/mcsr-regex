@@ -1,0 +1,9 @@
+^pa(c|s)e\?$
+
+how *(good|nice)? is (the|this|his) pa(c|s)e
+
+is (this|it) *(still|so far)? *(a)? *(good|nice|pb|wr)? (pa(c|s)e|run)
+
+are we on *(still)? *(a)? *(good)? *(pb|wr)? pa(c|s)e
+
+^(pb|wr|good) pa(c|s)e\?
