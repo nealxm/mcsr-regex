@@ -1,8 +1,17 @@
 import re
 
+keywords_list: list[str] = [
+    'aa overlay',
+    'ads',
+    'pace',
+    'pb',
+    'what category',
+    'wr'
+]
+
 
 def text_to_list(file_path: str) -> list[str]:
-    with open(file_path, 'r') as file:
+    with open(file_path, mode='r') as file:
         read_list: list[str] = file.readlines()
         for idx, line in enumerate(read_list):
             if line == '\n':
@@ -11,15 +20,19 @@ def text_to_list(file_path: str) -> list[str]:
     return read_list
 
 
-if __name__ == '__main__':
-    tests: list[str] = text_to_list('data/what category/data.txt')
-    strings: list[str] = text_to_list('data/what category/strings.txt')
+def test_keyword(keyword_name: str):
+    tests: list[str] = text_to_list(f'data/{keyword_name}/data.txt')
+    patterns: list[str] = text_to_list(f'data/{keyword_name}/strings.txt')
 
-    output: str = ''
     for tindex, test in enumerate(tests):
-        output = f'test{tindex}: "{test}"'
-        for pindex, pattern in enumerate(strings):
-            result = re.search(pattern,test)
+        output: str = f'test{tindex}: \"{test}\"'
+        for pindex, pattern in enumerate(patterns):
+            result = re.search(pattern, test, flags=re.I)
             if result:
                 output = f'{output}, matched with pattern{pindex}'
         print(output)
+
+
+if __name__ == '__main__':
+    for keyword in keywords_list:
+        test_keyword(keyword)
