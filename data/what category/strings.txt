@@ -6,6 +6,6 @@
 
 ((which|w(h)?at(([\W_]?s?| is)( the)?)?) (((speed( )?)?r(u|e)n(s)? )?cat(egory)?|type( of)? (speed( )?)?r(u|e)n(s)?|(speed( )?)?r(u|e)n type|(speed( )?)?r(u|e)n is this))
 
-(w(h)?at (are ((yo)?u|we)|((speed( )?)?(r(u|e)n(s)?) )is he) ((speed)?running|playing|doin(g)?))
+(w(h)?at(([\W_]?s| is) he| are ((yo)?u|we)| ((speed( )?)?(r(u|e)n(s)?) )?(is )?he) ((speed)?( )?running|playing|doin(g)?))
 
 (^(aa|all (advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set( )?seed|any%)( )?(\?)+$)
