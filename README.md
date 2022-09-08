@@ -12,7 +12,7 @@ here is a list of all the sets i have worked on:
 	+ [what category being currently played][what-category]
 + mentions of
 	+ [ads][ads]
-	+ [view-count][view-count]
+	+ [view count][view-count]
 ---
 
 ## usage

@@ -7,6 +7,7 @@ keywords_list: list[str] = [
     'pb',
     'what category',
     'wr'
+    'view count'
 ]
 
 
