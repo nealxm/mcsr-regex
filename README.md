@@ -10,7 +10,9 @@ here is a list of all the sets i have worked on:
 	+ [the pace of the current run][pace]
 	+ [why all advancements overlay isn't enabled][aa-overlay]
 	+ [what category being currently played][what-category]
-	+ [ads][ads] or just any mention of them
++ mentions of
+	+ [ads][ads]
+	+ [view-count][view-count]
 ---
 
 ## usage
@@ -50,5 +52,6 @@ anyone who has developed anything from these regex patterns:
 [aa-overlay]: https://github.com/nealxm/mcsr-regex/tree/master/data/aa%20overlay/patterns.txt
 [what-category]: https://github.com/nealxm/mcsr-regex/blob/master/data/what%20category/patterns.txt
 [ads]: https://github.com/nealxm/mcsr-regex/blob/master/data/ads/patterns.txt
+[view-count]: https://github.com/nealxm/mcsr-regex/blob/master/data/view%20count/patterns.txt
 [data]: https://github.com/nealxm/mcsr-regex/tree/master/data
 [issues]: https://github.com/nealxm/mcsr-regex/issues
