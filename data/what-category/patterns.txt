@@ -1,6 +1,6 @@
 ((are (these|you going for)|is (it|(th|d)is))( normal)? (aa|(all )?(advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set( )?seed|any%))
 
-(((we )?doin(g)?|((th|d)is)( is)?|it is|going for) ((an )?aa|(an )?all (advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set( )?seed|any%)( (speed( )?)?r(u|e)n(s)?)?(.*)?(\?)+)
+(((we )?doin(g)?|((th|d)is)( is)?|it is|going for) ((an )?aa|(an )?all (advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set( )?seed|any%)( (speed( )?)?r(u|e)n(s)?)?([\W_]+(chat|right|today( or.*)?))?(\?)+)
 
 ((are|is) (((th|d)is)|(yo)?u|he) (doing|running|playing|going for) ((an )?aa|(an )?all (advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set( )?seed|any%))
 
