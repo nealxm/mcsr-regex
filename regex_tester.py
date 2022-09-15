@@ -6,7 +6,7 @@ keywords_list: list[str] = [
     'pace',
     'pb',
     'what category',
-    'wr'
+    'wr',
     'view count'
 ]
 
@@ -23,7 +23,7 @@ def text_to_list(file_path: str) -> list[str]:
 
 def test_keyword(keyword_name: str):
     tests: list[str] = text_to_list(f'data/{keyword_name}/data.txt')
-    patterns: list[str] = text_to_list(f'data/{keyword_name}/strings.txt')
+    patterns: list[str] = text_to_list(f'data/{keyword_name}/patterns.txt')
 
     for tindex, test in enumerate(tests):
         output: str = f'test{tindex}: \"{test}\"'
