@@ -1,13 +1,13 @@
 import re
 
 keywords_list: list[str] = [
-    'aa overlay',
+    'aa-overlay',
     'ads',
     'pace',
     'pb',
-    'what category',
+    'what-category',
     'wr',
-    'view count'
+    'view-count'
 ]
 
 

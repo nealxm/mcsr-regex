@@ -1,6 +1,6 @@
 # mcsr regex
 ###### compiled and developed by **neal#0001**
-#### multiple sets of regex patterns to answer some of the most commonly asked questions in mcsr twitch chat's, 
+#### multiple sets of regex patterns to answer some of the most commonly asked questions in mcsr twitch chats, 
 hopefully some of these can help you in your chat or a chat you moderate.
 
 here is a list of all the sets i have worked on:
@@ -30,13 +30,13 @@ these are all chat messages i've copy-pasted directly from twitch chats used to 
 
 ## additional resources
 1) <https://regex101.com>  
-this is where i write all the regex patterns and i would reccomend it to anyone who wants to modify these regex patterns or develop new ones.
+this is where i write all the regex patterns and i would recommend it to anyone who wants to modify these regex patterns or develop new ones.
 2) <https://docs.fossabot.com/keywords>  
 this is just the documentation for keywords for fossabot and is really helpful if you are struggling to get these regex stings to work for your fossabot.
 
 ## feedback, testing, and development
 if you are using these regex patterns and notice a message does not get a proper response feel free to message me or open an issue [here][issues] on the github repository. 
-i will add the message you've found to the testing data text file so it's checked every time i update these regex patterns in future. 
+i will add the message you've found to the testing data text file so that it's checked every time i update these regex patterns in the future. 
 please do feel free to suggest new regex sets/keywords to be developed in future or any changes you would like to how this repository or how it is organized :)
 
 ## contributors
@@ -49,9 +49,9 @@ anyone who has developed anything from these regex patterns:
 [wr]: https://github.com/nealxm/mcsr-regex/blob/master/data/wr/patterns.txt
 [pb]: https://github.com/nealxm/mcsr-regex/blob/master/data/pb/patterns.txt
 [pace]: https://github.com/nealxm/mcsr-regex/blob/master/data/pace/patterns.txt
-[aa-overlay]: https://github.com/nealxm/mcsr-regex/tree/master/data/aa%20overlay/patterns.txt
-[what-category]: https://github.com/nealxm/mcsr-regex/blob/master/data/what%20category/patterns.txt
+[aa-overlay]: https://github.com/nealxm/mcsr-regex/tree/master/data/aa-overlay/patterns.txt
+[what-category]: https://github.com/nealxm/mcsr-regex/blob/master/data/what-category/patterns.txt
 [ads]: https://github.com/nealxm/mcsr-regex/blob/master/data/ads/patterns.txt
-[view-count]: https://github.com/nealxm/mcsr-regex/blob/master/data/view%20count/patterns.txt
+[view-count]: https://github.com/nealxm/mcsr-regex/blob/master/data/view-count/patterns.txt
 [data]: https://github.com/nealxm/mcsr-regex/tree/master/data
 [issues]: https://github.com/nealxm/mcsr-regex/issues
