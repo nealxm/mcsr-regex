@@ -23,11 +23,14 @@ def test_keywords(keywords: list[str], highlight_fails: bool = False):
             for pindex, pattern in enumerate(patterns):
                 if re.search(pattern, test, flags=re.I):
                     output = f"{output}, matched with pattern{pindex}"
-            print(output)
-            
+
             if highlight_fails:
                 if output == f"{keyword}-test{tindex}: \"{test}\"":
                     fail_output += f"\n{output}"
+                else:
+                    print(output)
+            else:
+                print(output)
 
     if highlight_fails:
         print(fail_output)
