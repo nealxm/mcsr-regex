@@ -1,4 +1,21 @@
+import logging
 import re
+
+
+class LocalFormatter(logging.Formatter):
+    def format(self, record: logging.LogRecord) -> str:
+        formats = {
+            logging.INFO: "\u001b[36m%(message)s\u001b[0m",
+            logging.WARNING: "\u001b[31m%(message)s\u001b[0m",
+        }
+        formatter = logging.Formatter(formats[record.levelno], style="%")
+        return formatter.format(record)
+
+
+handler = logging.StreamHandler()
+handler.setFormatter(LocalFormatter())
+logging.basicConfig(level=logging.INFO, handlers=[handler])
+log = logging.getLogger("name")
 
 
 def text_to_list(file_path: str) -> list[str]:
@@ -27,13 +44,11 @@ def test_keywords(keywords: list[str], highlight_fails: bool = False):
             if highlight_fails:
                 if output == f"{keyword}-test{tindex}: \"{test}\"":
                     fail_output += f"\n{output}"
-                else:
-                    print(output)
-            else:
-                print(output)
+                    continue
+            log.info(output)
 
     if highlight_fails:
-        print(fail_output)
+        log.warning(fail_output)
 
 
 if __name__ == '__main__':
