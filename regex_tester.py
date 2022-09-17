@@ -5,6 +5,7 @@ import re
 class LocalFormatter(logging.Formatter):
     def format(self, record: logging.LogRecord) -> str:
         formats = {
+            logging.DEBUG: "\u001b[32m%(message)s\u001b[0m",
             logging.INFO: "\u001b[36m%(message)s\u001b[0m",
             logging.WARNING: "\u001b[31m%(message)s\u001b[0m",
         }
@@ -14,7 +15,7 @@ class LocalFormatter(logging.Formatter):
 
 handler = logging.StreamHandler()
 handler.setFormatter(LocalFormatter())
-logging.basicConfig(level=logging.INFO, handlers=[handler])
+logging.basicConfig(level=logging.DEBUG, handlers=[handler])
 log = logging.getLogger("name")
 
 
@@ -48,7 +49,11 @@ def test_keywords(keywords: list[str], highlight_fails: bool = False):
             log.info(output)
 
     if highlight_fails:
-        log.warning(fail_output)
+        if fail_output == "\n\nthe following tests matched none of the patterns:":
+            fail_output = "\n\nall tests matched with a pattern!"
+            log.debug(fail_output)
+        else:
+            log.warning(fail_output)
 
 
 if __name__ == '__main__':
