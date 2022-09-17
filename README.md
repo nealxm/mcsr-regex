@@ -5,11 +5,12 @@ hopefully some of these can help you in your chat or a chat you moderate.
 
 here is a list of all the sets i have worked on:
 + questions about
-	+ [what the current world record is][wr]
-	+ [what the broadcasters pb is][pb]
-	+ [the pace of the current run][pace]
 	+ [why all advancements overlay isn't enabled][aa-overlay]
+	+ [what hdm stands for in aa speedruns][hdm]
+	+ [the pace of the current run][pace]
+	+ [what the broadcasters pb is][pb]
 	+ [what category being currently played][what-category]
+	+ [what the current world record is][wr]
 + mentions of
 	+ [ads][ads]
 	+ [view count][view-count]
@@ -46,12 +47,15 @@ anyone who has developed anything from these regex patterns:
 + **Isabel#7551**
 + **lizzie#0099**
 
-[wr]: https://github.com/nealxm/mcsr-regex/blob/master/data/wr/patterns.txt
-[pb]: https://github.com/nealxm/mcsr-regex/blob/master/data/pb/patterns.txt
+[aa-overlay]: https://github.com/nealxm/mcsr-regex/blob/master/data/aa-overlay/patterns.txt
+[hdm]: https://github.com/nealxm/mcsr-regex/blob/master/data/hdm/patterns.txt
 [pace]: https://github.com/nealxm/mcsr-regex/blob/master/data/pace/patterns.txt
-[aa-overlay]: https://github.com/nealxm/mcsr-regex/tree/master/data/aa-overlay/patterns.txt
+[pb]: https://github.com/nealxm/mcsr-regex/blob/master/data/pb/patterns.txt
 [what-category]: https://github.com/nealxm/mcsr-regex/blob/master/data/what-category/patterns.txt
+[wr]: https://github.com/nealxm/mcsr-regex/blob/master/data/wr/patterns.txt
+
 [ads]: https://github.com/nealxm/mcsr-regex/blob/master/data/ads/patterns.txt
 [view-count]: https://github.com/nealxm/mcsr-regex/blob/master/data/view-count/patterns.txt
+
 [data]: https://github.com/nealxm/mcsr-regex/tree/master/data
 [issues]: https://github.com/nealxm/mcsr-regex/issues

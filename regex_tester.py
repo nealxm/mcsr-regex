@@ -53,13 +53,14 @@ def test_keywords(keywords: list[str], highlight_fails: bool = False):
 
 if __name__ == '__main__':
     keywords_list: list[str] = [
-        'aa-overlay',
         'ads',
+        'aa-overlay',
+        'hdm',
         'pace',
         'pb',
+        'view-count',
         'what-category',
         'wr',
-        'view-count'
     ]
 
     test_keywords(keywords_list, highlight_fails=True)

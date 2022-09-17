@@ -1,0 +1,5 @@
+^hdm\?$
+
+what([\W_]?(s)?| is) [\W_]?hdm[\W_]?
+
+what does [\W_]?hdm[\W_]? (mean|stand for)
