@@ -1,5 +1,1 @@
-(\b(wh?at[']?s|what is) *((yo)?ur|you[´`']?re|his)* (pb|personal best|fast(est)? time)\b)
-
-(\bwh?at[']?s? (pb|personal best|fast(est)* time) does he (have|got)\b)
-
-(\bwh?at[']?s? (pb|personal best|fast(est)? time) (has|have) he\b)
+((w(h)?at[\W_]?s|what is) ((yo)?ur|you[\W_]?re|his|the)? (pb|(personal )?best|fast(est)? time))

@@ -1,0 +1,9 @@
+(where([\W_]?s| is)( (the))?( (aa))? tracker)
+
+(when does he turn on( (the))?( (aa))? tracker)
+
+(turn on( (the))?( (aa))? tracker)
+
+(why is there no( (aa))? tracker)
+
+(^(no )?(aa )?tracker( )*(\?)+$)

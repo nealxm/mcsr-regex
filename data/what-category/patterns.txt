@@ -1,10 +1,10 @@
 ((are (these|you going for)|is (it|(th|d)is))( normal)? (aa|(all )?(advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set( )?seed|any%))
 
-(((we )?doin(g)?|((th|d)is)( is)?|it is|going for) ((an )?aa|(an )?all (advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set( )?seed|any%)( (speed( )?)?r(u|e)n(s)?)?([\W_]+(chat|right|today( or.*)?))?(\?)+)
+(((we )?doin(g)?|((th|d)is)( is)?|it is|going for) ((an )?aa|(an )?all (advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set( )?seed|any%)( (speed( )?)?r(u|e)n(s)?)?([\W_]+(chat|right|today( or.*)?))?( )*(\?)+)
 
 ((are|is) (((th|d)is)|(yo)?u|he) (doing|running|playing|going for) ((an )?aa|(an )?all (advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set( )?seed|any%))
 
-((which|w(h)?at(([\W_]?s?| is)( the)?)?) (((speed( )?)?r(u|e)n(s)? )?cat(egory)?|type( of)? (speed( )?)?r(u|e)n(s)?|(speed( )?)?r(u|e)n (type|is this|are (yo)?u doing)))
+((which|w(h)?at(([\W_]?s?| is)( the)?)?) (((speed( )?)?r(u|e)n(s)? )?cat(egory)?|((type|kind|sort)( of)?|kinda) (speed( )?)?r(u|e)n(s)?|(speed( )?)?r(u|e)n (type|is this|are (yo)?u doing)))
 
 (w(h)?at(([\W_]?s| is) he| (are )?((yo)?u|we)| ((speed( )?)?(r(u|e)n(s)?) )?(is )?he| kind of) ((speed)?( )?run(ning)?|playing|doin(g)?))
 

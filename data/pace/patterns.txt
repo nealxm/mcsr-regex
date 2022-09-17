@@ -1,9 +1,13 @@
-^pa(c|s)e\?$
+((how(( (good|nice|insane)) is|[\W_]?s|how is)) (the|this|his) (pa(c|s(t)?)e|run))
 
-how *(good|nice)? is (the|this|his) pa(c|s)e
+(is this( (pa(c|s)e|run))? still (ok(ay)?|good|nice|pb|wr|record|insane))
 
-is (this|it) *(still|so far)? *(a)? *(good|nice|pb|wr)? (pa(c|s)e|run)
+((are we still on( a(n)?)?|is (this|it)( (still))?( a(n)?)?) (ok(ay)?|good|nice|pb|wr|record|insane) (pa(c|s)e|run))
 
-are we on *(still)? *(a)? *(good)? *(pb|wr)? pa(c|s)e
+(^((pb|wr|good) )?pa(c|s(t)?)e(\?)+$)
 
-^(pb|wr|good) pa(c|s)e\?
+(((can|could) this run( somehow)?( be)?|is this run) on (ok(ay)?|good|nice|pb|wr|record|insane) pa(c|s(t)?)e)
+
+(potential((ly| for) )?new (pb|wr)\?)
+
+(what pa(c|s(t)?)e (is he|are you)( on)? (rn|right now))
