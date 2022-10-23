@@ -1,9 +1,9 @@
-(where([\W_]?s| is)( (the))?( (aa))? tracker)
+(where([\W_]?s|(\s)*is)((\s)*(the))?((\s)*(aa))?(\s)*tracker)
 
-(when does he turn on( (the))?( (aa))? tracker)
+(when(\s)*does(\s)*he(\s)*turn(\s)*on((\s)*(the))?((\s)*(aa))?(\s)*tracker)
 
-(turn on( (the))?( (aa))? tracker)
+(turn on((\s)*(the))?((\s)*(aa))?(\s)*tracker)
 
-(why is there no( (aa))? tracker)
+(why is there no((\s)*(aa))?(\s)*tracker)
 
-(^(no )?((aa )?tracker|overlay)( )*(\?)+$)
+(^(no(\s)*)?((aa(\s)*)?tracker|overlay)(\s)*(\?)+$)

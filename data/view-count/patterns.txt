@@ -1,5 +1,5 @@
-((you have|there([\W_]?s| is| are)) (\d+|many)( (less|more))? (view(er)?s|people watching) th(a|e)n)
+((you(\s)*have|there([\W_]?s|(\s)*is|(\s)*are))(\s)*(\d+|many)((\s)*(less|more))?(\s)*(view(er)?s|people(\s)*watching)(\s)*th(a|e)n)
 
-((\d+|many)( (people))? (viewers|watching|are watching))
+(((\d)+|many)((\s)*(people))?(\s)*(viewers|watching|are(\s)*watching))
 
-((view(er)?( )?count|viewers|views) (((is|are) at) \d+|((just) )?(doubled|halved|increased|decreased)))
+((view(er)?((\s)*)?count|viewers|views)(\s)*(((is|are)(\s)*at)(\s)*(\d)+|((just)(\s)*)?(doubled|halved|increased|decreased)))
