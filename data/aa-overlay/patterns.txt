@@ -6,4 +6,4 @@
 
 (why is there no( (aa))? tracker)
 
-(^(no )?(aa )?tracker( )*(\?)+$)
+(^(no )?((aa )?tracker|overlay)( )*(\?)+$)

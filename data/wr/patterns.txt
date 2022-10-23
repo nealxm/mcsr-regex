@@ -1,1 +1,1 @@
-(what([\W_]?s| is)( the)?( current)? (wr|world record))
+(what([\W_]?s| is)( the)?( current)? (\bwr\b|world record))
