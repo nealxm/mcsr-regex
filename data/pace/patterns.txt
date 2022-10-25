@@ -2,6 +2,8 @@
 
 (is(\s)*this((\s)*(pa(c|s)e|run))?(\s)*still(\s)*(good|nice|pb|wr|record|insane))
 
+(is(\s)*pace((\s)*still)?(\s)*(okay|good|nice|pb|wr|record|insane))
+
 ((are(\s)*we(\s)*still(\s)*on((\s)*a(n)?)?|is(\s)*(this|it)((\s)*(still))?((\s)*a(n)?)?)(\s)*(ok(ay)?|good|nice|pb|wr|record|insane)(\s)*(pa(c|s)e|run))
 
 (^((pb|wr|good)(\s)*)?pa(c|s(t)?)e(\?)+$)

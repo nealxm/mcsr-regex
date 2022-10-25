@@ -1,1 +1,1 @@
-((w(h)?at[\W_]?s|what(\s)*is)(\s)*((yo)?ur|you[\W_]?re|his|the)?(\s)*(pb|(personal(\s)*)?best|fast(est)?(\s)*time))
+((w(h)?at[\W_]?s|what(\s)*is)(\s)*((yo)?ur|you[\W_]?re|his|the)?(\s)*(pb|personal(\s)*best|(best|fast(est)?)(\s)*time))
