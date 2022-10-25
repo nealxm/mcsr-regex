@@ -1,1 +1,1 @@
-(what([\W_]?s|(\s)*is)((\s)*the)?((\s)*current)?(\s)*(\bwr\b|world(\s)*record))
+(what([\W_]?s|(\s*)is)((\s*)the)?((\s*)current)?(\s*)(\bwr\b|world(\s*)record))

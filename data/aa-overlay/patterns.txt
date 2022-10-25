@@ -1,9 +1,9 @@
-(where([\W_]?s|(\s)*is)((\s)*(the))?((\s)*(aa))?(\s)*tracker)
+(where([\W_]?s|(\s*)is)((\s*)(the))?((\s*)(aa))?(\s*)tracker)
 
-(when(\s)*does(\s)*he(\s)*turn(\s)*on((\s)*(the))?((\s)*(aa))?(\s)*tracker)
+(when(\s*)does(\s*)he(\s*)turn(\s*)on((\s*)(the))?((\s*)(aa))?(\s*)tracker)
 
-(turn on((\s)*(the))?((\s)*(aa))?(\s)*tracker)
+(turn on((\s*)(the))?((\s*)(aa))?(\s*)tracker)
 
-(why is there no((\s)*(aa))?(\s)*tracker)
+(why is there no((\s*)(aa))?(\s*)tracker)
 
-(^(no(\s)*)?((aa(\s)*)?tracker|overlay)(\s)*(\?)+$)
+(^(no(\s*))?((aa(\s*))?tracker|overlay)(\s*)(\?)+$)
