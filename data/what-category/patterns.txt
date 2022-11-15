@@ -1,6 +1,6 @@
 ((are(\s*)(these|you(\s*)going(\s*)for)|is(\s*)(it|(th|d)is))((\s*)normal)?(\s*)(aa|(all(\s*))?(advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set((\s*))?seed|any%|fsg))
 
-(((we(\s*))?doin(g)?|((th|d)is)((\s*)is)?|it(\s*)is|going(\s*)for|running)(\s*)((a(n)?(\s*))?aa|(a(n)?(\s*))?all(\s*)(advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set((\s*))?seed|any%|fsg)((\s*)(speed((\s*))?)?r(u|e)n(s)?)?([\W_]+(chat|right|today((\s*)or.*)?))?((\s*))*(\?)?)
+(((we(\s*))?doin(g)?|((th|d)is)((\s*)is)?|it(\s*)is|going(\s*)for|running)(\s*)((a(n)?(\s*))?aa|(a(n)?(\s*))?all(\s*)(advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set((\s*))?seed|any%|fsg)((\s*)(speed((\s*))?)?r(u|e)n(s)?)?([\W_]+(chat|right|today((\s*)or.*)?))?((\s*))*(\?)+)
 
 ((are|is)(\s*)(((th|d)is)|(yo)?u|he)(\s*)(doing|running|playing|going(\s*)for)(\s*)((an(\s*))?aa|(an(\s*))?all(\s*)(advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set((\s*))?seed|any%))
 
