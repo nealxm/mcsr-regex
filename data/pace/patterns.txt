@@ -1,4 +1,4 @@
-((how(((\s*)(good|nice|insane))(\s*)is|[\W_]?s|how(\s*)is))(\s*)(the|this|his)(\s*)(pa(c|s(t)?)e|run))
+((how((\s*)(good|nice|insane)*(\s*)is|[\W_]?s))(\s*)(the|this|his)*(\s*)(pa(c|s(t)?)e|run))
 
 (is(\s*)this((\s*)(pa(c|s)e|run))?(\s*)still(\s*)(good|nice|pb|wr|record|insane))
 
@@ -13,3 +13,5 @@
 (potential((ly|(\s*)for)(\s*))?new(\s*)(pb|wr)\?)
 
 (what pa(c|s(t)?)e(\s*)(is(\s*)he|are(\s*)you)((\s*)on)?(\s*)(rn|right(\s*)now))
+
+((is he|are you)(\s*)(still)*(\s*)on(\s*)(okay|good|nice|pb|wr|record|insane)*(\s*)pa(c|s(t)?)e)
