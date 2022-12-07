@@ -64,7 +64,7 @@ if __name__ == '__main__':
         'pace',
         'pb',
         'view-count',
-        'what-category',
+        'category',
         'wr',
     ]
 

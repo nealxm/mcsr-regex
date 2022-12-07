@@ -8,7 +8,7 @@ here are a list of all the keywords provided in this repository:
 	+ [what hdm stands for in aa speedruns][hdm]
 	+ [the pace of the current run][pace]
 	+ [what the broadcasters pb is][pb]
-	+ [what category is currently being played][what-category]
+	+ [the current category being played][category]
 	+ [what the current world record is][wr]
 + mentions of
 	+ [ads][ads]
@@ -51,7 +51,7 @@ anyone who has developed anything from these regex patterns:
 [hdm]: https://github.com/nealxm/mcsr-regex/blob/master/data/hdm/patterns.txt
 [pace]: https://github.com/nealxm/mcsr-regex/blob/master/data/pace/patterns.txt
 [pb]: https://github.com/nealxm/mcsr-regex/blob/master/data/pb/patterns.txt
-[what-category]: https://github.com/nealxm/mcsr-regex/blob/master/data/what-category/patterns.txt
+[category]: https://github.com/nealxm/mcsr-regex/blob/master/data/category/patterns.txt
 [wr]: https://github.com/nealxm/mcsr-regex/blob/master/data/wr/patterns.txt
 
 [ads]: https://github.com/nealxm/mcsr-regex/blob/master/data/ads/patterns.txt
