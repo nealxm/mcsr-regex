@@ -1,1 +1,1 @@
-(w(h)?at([\W]?s|(\s*)is)?(\s*)((yo)?u(r)?|you[\W]?re|his|the|this guy[\W]?s)?(\s*)(pb|personal(\s*)best|best time))
+(w(h)?at((\W?)s|(\s*)is)?(\s*)((yo)?u(r)?|you(\W?)re|his|the|this guy(\W?)s)?(\s*)(pb|personal(\s*)best|best time))

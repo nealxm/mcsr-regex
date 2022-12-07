@@ -4,7 +4,7 @@
 
 ((are|is)(\s*)(((th|d)is)|(yo)?u|he)(\s*)(doing|running|playing|going(\s*)for)(\s*)(a(n)?|the)?(\s*)(aa|(all(\s*)(advanc(e)?ment(s)?|achi(e)?vement(s)?|advances))|rsg|ssg|set(\s*)seed|any%))
 
-((which|w(h)?at(([\W_]?(s)?|(\s*)is)(\s*)(the)?(\s*)(current)?)?)(\s*)(((speed((\s*))?)?r(u|e)n(s)?(\s*))?cat(egory)?|((type|kind|sort)((\s*)of)?|kinda)(\s*)(speed((\s*))?)?r(u|e)n(s)?|(speed(\s*))?r(u|e)n(\s*)(type|is(\s*)this|are(\s*)(yo)?u(\s*)doing)?))
+((which|w(h)?at(([\W_]?(s)?|(\s*)is)(\s*)(the)?(\s*)(current)?)?)(\s*)(((speed(\s*))?r(u|e)n(s)?)?(\s*)cat(egory)?|((type|kind|sort)((\s*)of)?|kinda)(\s*)(speed((\s*))?)?r(u|e)n(s)?|\b(speed(\s*))?r(u|e)n\b(\s*)(type|is(\s*)this|are(\s*)(yo)?u(\s*)doing)?))
 
 ((w(h)?at|tf)(([\W_]?s|(\s*)is)(\s*)(he|this)?|(\s*)(are(\s*))?((yo)?u|we)|(\s*)((speed(\s*))?(r(u|e)n(s)?)(\s*))?((is)?(\s*)he|are(\s*)you)|(\s*)kind(\s*)of)(\s*)((speed)?(\s*)run(ning)?|playing|doin(g)?))
 

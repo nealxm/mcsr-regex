@@ -3,3 +3,5 @@
 (((\d)+|many)((\s*)(people))?(\s*)(viewers|watching|are(\s*)watching))
 
 ((view(er)?((\s*))?count|viewers|views)(\s*)(((is|are)(\s*)at)(\s*)(\d)+|((just)(\s*))?(doubled|halved|increased|decreased)))
+
+((low|high)(\s*)viewer(s)?(\s*)count\?)
