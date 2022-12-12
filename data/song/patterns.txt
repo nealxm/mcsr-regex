@@ -1,0 +1,1 @@
+what((\W?)s(\s*)(this|the)(\s*)song|(\s*)song(\s*)is(\s*)(this|playing))
