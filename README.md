@@ -5,10 +5,12 @@
 here are a list of all the keywords provided in this repository:
 + questions about
 	+ [why all advancements overlay is not enabled][aa-overlay]
+	+ [the current category being played][category]
 	+ [what hdm stands for in aa speedruns][hdm]
 	+ [the pace of the current run][pace]
 	+ [what the broadcasters pb is][pb]
-	+ [the current category being played][category]
+	+ [any interesting runs so far in the stream (beta)][runs]
+	+ [the current song (beta)][song]
 	+ [what the current world record is][wr]
 + mentions of
 	+ [ads][ads]
@@ -48,10 +50,12 @@ anyone who has developed anything from these regex patterns:
 + **lizzie#0099**
 
 [aa-overlay]: https://github.com/nealxm/mcsr-regex/blob/master/data/aa-overlay/patterns.txt
+[category]: https://github.com/nealxm/mcsr-regex/blob/master/data/category/patterns.txt
 [hdm]: https://github.com/nealxm/mcsr-regex/blob/master/data/hdm/patterns.txt
 [pace]: https://github.com/nealxm/mcsr-regex/blob/master/data/pace/patterns.txt
 [pb]: https://github.com/nealxm/mcsr-regex/blob/master/data/pb/patterns.txt
-[category]: https://github.com/nealxm/mcsr-regex/blob/master/data/category/patterns.txt
+[runs]: https://github.com/nealxm/mcsr-regex/blob/master/data/runs/patterns.txt
+[song]: https://github.com/nealxm/mcsr-regex/blob/master/data/song/patterns.txt
 [wr]: https://github.com/nealxm/mcsr-regex/blob/master/data/wr/patterns.txt
 
 [ads]: https://github.com/nealxm/mcsr-regex/blob/master/data/ads/patterns.txt
