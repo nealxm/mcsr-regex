@@ -1,1 +1,1 @@
-(^((\d)+(\s*))?((a+(d|d+v|d{3,}?)s*(ert(i(s|z)e)?(ment+s*)?)?)|commercial(s)?|adds)\b)
+^(\d+\s*)?((a+(d|d+v|d{3,}?)s*(ert(i(s|z)e)?(ment+s*)?)?)|commercials?|adds)\b
