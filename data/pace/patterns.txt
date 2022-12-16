@@ -1,0 +1,9 @@
+how(\W?s|is)\s*(the|this)?\s*(pa(c|st?)e|run)
+
+wh?at\s*pa(c|st?)e\s(is\s*he|are\s*(we|you))\s*(on|right\s*now|rn)
+
+is\s*pa(c|st?)e\s*(still)?(wr|record|pb|good)
+
+(are\s*you|is\s*(he|this))\s*(still)?\s*(on)?\s*(wr|record|pb|good)?\s*pa(c|st?)e
+
+^(wr|record|pb|good)?\s*pa(c|st?)e\?*$
