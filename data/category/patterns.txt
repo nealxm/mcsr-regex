@@ -1,11 +1,11 @@
-(((are|r)(\s*)(these|(yo)?u(\s*)(going(\s*)for|doing))|is(\s*)(it|(th|d)is))((\s*)normal)?(\s*)(aa|(all(\s*))?(advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set((\s*))?seed|any%|fsg))
+(((are|r)(\s*)(these|(yo)?u(\s*)(going(\s*)for|doing))|is(\s*)(it|(th|d)is))(\s*)(normal|like.*)?(\s*)(aa|(all(\s*))?(advanc(e)?(ment)?(s)?|achi(e)?vement(s)?)|rsg|ssg|set(\s*)seed|any%|fsg))
 
-(((we(\s*))?doin(g)?|((th|d)is)((\s*)is)?|it(\s*)is|going(\s*)for|running|its)(\s*)(.*)(\s*)((a(n)?(\s*))?aa|(a(n)?(\s*))?all(\s*)(advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set(\s*)seed|any%|fsg)((\s*)(on(\s*)this|(speed(\s*))?r(u|e)n(s)?))?([\W_]+(chat|right|today((\s*)or.*)?))?(\s*)(\?)+)
+(((we(\s*))?doin(g)?|((th|d)is)((\s*)is)?|it(\s*)is|going(\s*)for|running|its)(\s*)(.*)(\s*)((a(n)?(\s*))?aa|(a(n)?(\s*))?all(\s*)(advanc(e)?(ment)?(s)?|achi(e)?vement(s)?)|rsg|ssg|set(\s*)seed|any%|fsg)((\s*)(on(\s*)this|(speed(\s*))?r[uea]n(s)?))?((\W)+(chat|right|today((\s*)or.*)?))?(\s*)(\?)+)
 
-((are|is)(\s*)(((th|d)is)|(yo)?u|he)(\s*)(doing|running|playing|going(\s*)for)(\s*)(a(n)?|the)?(\s*)(aa|(all(\s*)(advanc(e)?ment(s)?|achi(e)?vement(s)?|advances))|rsg|ssg|set(\s*)seed|any%))
+((are|is)(\s*)(((th|d)is)|(yo)?u|he)(\s*)(doing|running|playing|going(\s*)for)(\s*)(a(n)?|the)?(\s*)(aa|(all(\s*)(advanc(e)?(ment)?(s)?|achi(e)?vement(s)?))|rsg|ssg|set(\s*)seed|any%))
 
-((which|w(h)?at(([\W_]?(s)?|(\s*)is)(\s*)(the)?(\s*)(current)?)?)(\s*)(((speed(\s*))?r(u|e)n(s)?)?(\s*)cat(egory)?|((type|kind|sort)((\s*)of)?|kinda)(\s*)(speed((\s*))?)?r(u|e)n(s)?|\b(speed(\s*))?r(u|e)n\b(\s*)(type|is(\s*)this|are(\s*)(yo)?u(\s*)doing)?))
+((which|w(h)?at(((\W)?s|(\s*)is)(\s*)(the)?(\s*)(current)?)?)(\s*)(((speed(\s*))?r[uea]n(s)?)?(\s*)cat(egory)?|((type|kind|sort)((\s*)of)?|kinda)(\s*)(speed((\s*))?)?r[uea]n(s)?|\b(speed(\s*))?r[uea]n\b(\s*)(type|is(\s*)this|are(\s*)(yo)?u(\s*)doing)?))
 
-((w(h)?at|tf)(([\W_]?s|(\s*)is)(\s*)(he|this)?|(\s*)(are(\s*))?((yo)?u|we)|(\s*)((speed(\s*))?(r(u|e)n(s)?)(\s*))?((is)?(\s*)he|are(\s*)you)|(\s*)kind(\s*)of)(\s*)((speed)?(\s*)run(ning)?|playing|doin(g)?))
+((w(h)?at|tf)(((\W)?s|(\s*)is)(\s*)(he|this)?|(\s*)(are(\s*))?((yo)?u|we)|(\s*)((speed(\s*))?(r[uea]n(s)?)(\s*))?((is)?(\s*)he|are(\s*)you)|(\s*)kind(\s*)of)(\s*)((speed)?(\s*)run(ning)?|playing|doin(g)?))
 
-(^(aa|all(\s*)(advanc(e)?ment(s)?|achi(e)?vement(s)?|advances)|rsg|ssg|set((\s*))?seed|any%|fsg|resetting(\s*)for)(((\s*)or.*)|(\s*))(\?)[?!]*$)
+(^(aa|all(\s*)(advanc(e)?(ment)?(s)?|achi(e)?vement(s)?)|rsg|ssg|set(\s*)seed|any%|fsg|resetting(\s*)for)(\s*)(or.*|runs)?\?[?!]*$)
