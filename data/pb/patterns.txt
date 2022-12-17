@@ -1,1 +1,3 @@
-(w(h)?at((\W?)s|(\s*)is)?(\s*)((yo)?u(r)?|you(\W?)re|his|the|this(\s*)guy(\W?)s)?(\s*)(p[br]|personal(\s*)(best|record)|best(\s*)time))
+wh?at(\W?s|\s*is)?\s*((yo)?ur?|you\W?re|his|the|this\s*guy\W?s)?\s*(p[br]|personal\s*(best|record)|best\s*time)
+
+^(p[br]|personal\s*(best|record))\?$
