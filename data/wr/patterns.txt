@@ -1,1 +1,1 @@
-what(\W?s|\s*is)\s*(the)?\s*(current)?\s*.*\s*(\bwr\b|(world)?\s*record)
+what(\W?s|\s*is)\s*(the)?\s*(current)?\s*(aa|all\s*(advance?(ment)?s?|achie?vements?)|rsg|random\s*seed|any%)?\s*(\bwr\b|(world)?\s*record)
