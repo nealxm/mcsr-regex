@@ -1,17 +1,9 @@
-((how((\s*)(good|nice|insane)*(\s*)is|[\W_]?s))(\s*)(the|this|his)*(\s*)(pa(c|s(t)?)e|run))
+how(\W?s|is)\s*(the|this)?\s*(pa(c|st?)e|run)
 
-(is(\s*)this((\s*)(pa(c|s)e|run))?(\s*)still(\s*)(good|nice|pb|wr|record|insane))
+wh?at\s*pa(c|st?)e\s(is\s*he|are\s*(we|you))\s*(on|right\s*now|rn)
 
-(is(\s*)pace((\s*)still)?(\s*)(okay|good|nice|pb|wr|record|insane))
+is(n\W?t)?\s*(this)?\s*pa(c|st?)e\s*(still|kinda)?\s*(wr|record|pb|good|crazy)
 
-((are(\s*)we(\s*)still(\s*)on((\s*)a(n)?)?|is(\s*)(this|it)((\s*)(still))?((\s*)a(n)?)?)(\s*)(ok(ay)?|good|nice|pb|wr|record|insane)(\s*)(pa(c|s)e|run))
+(are\s*you|is\s*(he|this))\s*(still)?\s*(on)?\s*(wr|record|pb|good|crazy)?\s*pa(c|st?)e
 
-(^((pb|wr|good)(\s*))?pa(c|s(t)?)e(\?)+$)
-
-(((can|could)(\s*)this(\s*)run((\s*)somehow)?((\s*)be)?|is(\s*)this(\s*)run)(\s*)on(\s*)(ok(ay)?|good|nice|pb|wr|record|insane)(\s*)pa(c|s(t)?)e)
-
-(potential((ly|(\s*)for)(\s*))?new(\s*)(pb|wr)\?)
-
-(what pa(c|s(t)?)e(\s*)(is(\s*)he|are(\s*)you)((\s*)on)?(\s*)(rn|right(\s*)now))
-
-((is he|are you)(\s*)(still)*(\s*)on(\s*)(okay|good|nice|pb|wr|record|insane)*(\s*)pa(c|s(t)?)e)
+^(wr|record|pb|good|crazy)?\s*pa(c|st?)e\?*$

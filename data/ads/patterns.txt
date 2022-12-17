@@ -1,3 +1,1 @@
-(\b((a+(d|d+v|d{3,}?)s*(ert(i(s|z)e)?(ment+s*)?)?)|commercial(s)?)\b)
-
-(^((\d)+(\s*))?adds$)
+(i\s*got\s*(an?)?\s*|^)\d*\s*(a+d+v*(ert)?(i[sz]ement)?s*|commercials?)\b

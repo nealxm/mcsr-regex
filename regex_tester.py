@@ -60,11 +60,13 @@ if __name__ == '__main__':
     keywords_list: list[str] = [
         'ads',
         'aa-overlay',
+        'category',
         'hdm',
         'pace',
         'pb',
+        'runs',
+        'song',
         'view-count',
-        'category',
         'wr',
     ]
 
