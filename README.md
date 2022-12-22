@@ -7,6 +7,7 @@ here are a list of all the keywords provided in this repository:
 	+ [why all advancements overlay is not enabled][aa-overlay]
 	+ [the current category being played][category]
 	+ [what hdm stands for in aa speedruns][hdm]
+	+ [what keyboard the broadcaster is using (beta)][keyboard]
 	+ [the pace of the current run][pace]
 	+ [what the broadcasters pb is][pb]
 	+ [any interesting runs so far in the stream (beta)][runs]
@@ -52,6 +53,7 @@ anyone who has developed anything from these regex patterns:
 [aa-overlay]: https://github.com/nealxm/mcsr-regex/blob/master/data/aa-overlay/patterns.txt
 [category]: https://github.com/nealxm/mcsr-regex/blob/master/data/category/patterns.txt
 [hdm]: https://github.com/nealxm/mcsr-regex/blob/master/data/hdm/patterns.txt
+[keyboard]: https://github.com/nealxm/mcsr-regex/blob/master/data/keyboard/patterns.txt
 [pace]: https://github.com/nealxm/mcsr-regex/blob/master/data/pace/patterns.txt
 [pb]: https://github.com/nealxm/mcsr-regex/blob/master/data/pb/patterns.txt
 [runs]: https://github.com/nealxm/mcsr-regex/blob/master/data/runs/patterns.txt

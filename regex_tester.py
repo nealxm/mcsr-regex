@@ -62,6 +62,7 @@ if __name__ == '__main__':
         'aa-overlay',
         'category',
         'hdm',
+        'keyboard',
         'pace',
         'pb',
         'runs',
