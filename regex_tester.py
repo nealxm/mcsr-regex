@@ -56,6 +56,22 @@ def test_keywords(keywords: list[str], highlight_fails: bool = False):
             log.warning(fail_output)
 
 
+def test_message(keywords: list[str], message_in: str):
+    output: str = f"testing \"{message_in}\" against all keywords"
+
+    for keyword in keywords:
+        patterns: list[str] = text_to_list(f'data/{keyword}/patterns.txt')
+
+        for pindex, pattern in enumerate(patterns):
+            if re.search(pattern, message_in, flags=re.I):
+                output = f"{output}\n\tmatched with {keyword} pattern-{pindex}"
+
+    if output == f"testing \"{message_in}\" against all keywords":
+        log.warning("the given message matched with no patterns")
+    else:
+        log.debug(output)
+
+
 if __name__ == '__main__':
     keywords_list: list[str] = [
         'ads',
