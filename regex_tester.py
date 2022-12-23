@@ -30,7 +30,7 @@ def text_to_list(file_path: str) -> list[str]:
     return read_list
 
 
-def test_keywords(keywords: list[str], highlight_fails: bool = False):
+def test_keywords(keywords: list[str]):
     fail_output: str = "\n\nthe following tests matched none of the patterns:"
 
     for keyword in keywords:
@@ -43,18 +43,16 @@ def test_keywords(keywords: list[str], highlight_fails: bool = False):
                 if re.search(pattern, test, flags=re.I):
                     output = f"{output}, matched with pattern{pindex}"
 
-            if highlight_fails:
-                if output == f"{keyword}-test{tindex}: \"{test}\"":
-                    fail_output += f"\n{output}"
-                    continue
+            if output == f"{keyword}-test{tindex}: \"{test}\"":
+                fail_output += f"\n{output}"
+                continue
             log.info(output)
 
-    if highlight_fails:
-        if fail_output == "\n\nthe following tests matched none of the patterns:":
-            fail_output = "\n\nall tests matched with a pattern!"
-            log.debug(fail_output)
-        else:
-            log.warning(fail_output)
+    if fail_output == "\n\nthe following tests matched none of the patterns:":
+        fail_output = "\n\nall tests matched with a pattern!"
+        log.debug(fail_output)
+    else:
+        log.warning(fail_output)
 
 
 def test_message(keywords: list[str], message_in: str):
@@ -103,7 +101,7 @@ if __name__ == '__main__':
     parsed_args = parser.parse_args()
 
     if parsed_args.full:
-        test_keywords(keywords_list, highlight_fails=True)
+        test_keywords(keywords_list)
     elif parsed_args.message:
         message = ' '.join(parsed_args.message)
         test_message(keywords_list, message)
