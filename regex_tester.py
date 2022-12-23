@@ -101,7 +101,6 @@ if __name__ == '__main__':
                         nargs='+',
                         help="check one message against regex repository ")
     parsed_args = parser.parse_args()
-    print(parsed_args)
 
     if parsed_args.full:
         test_keywords(keywords_list, highlight_fails=True)
