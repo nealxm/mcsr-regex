@@ -1,5 +1,6 @@
 import logging
 import re
+import argparse
 
 
 class LocalFormatter(logging.Formatter):
@@ -86,4 +87,24 @@ if __name__ == '__main__':
         'wr',
     ]
 
-    test_keywords(keywords_list, highlight_fails=True)
+    parser = argparse.ArgumentParser(
+        description="interact with the regex repository",
+    )
+    parser.add_argument('-f', '--full',
+                        action='store_true',
+                        help="check all saved messages against regex repository"
+                        )
+    parser.add_argument('-s', '--single',
+                        metavar='message',
+                        dest='message',
+                        type=str,
+                        nargs='+',
+                        help="check one message against regex repository ")
+    parsed_args = parser.parse_args()
+    print(parsed_args)
+
+    if parsed_args.full:
+        test_keywords(keywords_list, highlight_fails=True)
+    elif parsed_args.message:
+        message = ' '.join(parsed_args.message)
+        test_message(keywords_list, message)
