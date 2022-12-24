@@ -1,7 +1,7 @@
 import argparse
 
 from regex_tester.__init__ import keywords_list
-from regex_tester.regex import test_keywords, test_message
+from regex_tester.regex import test_all, test_message
 
 
 def main():
@@ -21,7 +21,7 @@ def main():
     parsed_args = parser.parse_args()
 
     if parsed_args.full:
-        test_keywords(keywords_list)
+        test_all(keywords_list)
     elif parsed_args.message:
         message = ' '.join(parsed_args.message)
         test_message(keywords_list, message)

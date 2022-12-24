@@ -9,7 +9,7 @@ def text_to_list(file_path: str) -> list[str]:
     return [line.strip() for line in read_list if line != '\n']
 
 
-def test_keywords(keywords: list[str]):
+def test_all(keywords: list[str]):
     fail_output: str = "\n\nthe following tests matched none of the patterns:"
 
     for keyword in keywords:
@@ -23,7 +23,7 @@ def test_keywords(keywords: list[str]):
                     output = f"{output}, matched with pattern{pindex}"
 
             if output == f"{keyword}-test{tindex}: \"{test}\"":
-                fail_output += f"\n{output}"
+                fail_output = f"{fail_output}\n{output}"
                 continue
             log.info(output)
 
@@ -35,7 +35,7 @@ def test_keywords(keywords: list[str]):
 
 
 def test_message(keywords: list[str], message_in: str):
-    output: str = f"testing \"{message_in}\" against all keywords"
+    output: str = f"testing \"{message_in}\" against all keywords:"
 
     for keyword in keywords:
         patterns: list[str] = text_to_list(f'data/{keyword}/patterns.txt')
@@ -45,6 +45,6 @@ def test_message(keywords: list[str], message_in: str):
                 output = f"{output}\n\tmatched with {keyword} pattern{pindex}"
 
     if output == f"testing \"{message_in}\" against all keywords":
-        log.warning("the given message matched with no patterns")
+        log.warning("the given message matched with no patterns:")
     else:
         log.debug(output)
