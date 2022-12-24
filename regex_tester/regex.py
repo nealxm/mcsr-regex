@@ -6,11 +6,7 @@ from regex_tester.logger import log
 def text_to_list(file_path: str) -> list[str]:
     with open(file_path, mode='r') as file:
         read_list: list[str] = file.readlines()
-        for idx, line in enumerate(read_list):
-            if line == '\n':
-                del read_list[idx]
-            read_list[idx] = read_list[idx].strip()
-    return read_list
+    return [line.strip() for line in read_list if line != '\n']
 
 
 def test_keywords(keywords: list[str]):
