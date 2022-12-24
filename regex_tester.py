@@ -65,6 +65,7 @@ if __name__ == '__main__':
         'keyboard',
         'pace',
         'pb',
+        'playlist',
         'runs',
         'song',
         'view-count',
