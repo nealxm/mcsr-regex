@@ -1,10 +1,12 @@
 keywords_list: list[str] = [
-    'ads',
     'aa-overlay',
+    'ads',
     'category',
     'hdm',
+    'keyboard',
     'pace',
     'pb',
+    'playlist',
     'runs',
     'song',
     'view-count',
