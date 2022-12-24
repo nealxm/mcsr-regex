@@ -4,8 +4,8 @@
 
 (are|is)\s*((th|d)is|(yo)?u|he)\s*(doing|running|playing|going\s*for)\s*(an?|the)?\s*(aa|all\s*(advance?(ment)?s?|achie?vements?)|[rsf]sg|(set|random)\s*seed|any%)
 
-(which|wh?at((\W?s|\s*is)\s*(the)?\s*(current)?)?)\s*(((speed)?\s*r[uea]ns?)?\s*cat(egory)?|((type|kind|sort)\s*(of)?|kinda)\s*(speed)?\s*r[uea]ns?|\b(speed)?\s*r[uea]n\b\s*(type|is\s*this|are\s*(yo)?u\s*doing)?)
+(which|wh?at((\W?s|\s*is)\s*(the)?\s*(current)?)?)\s*(((speed)?\s*r[uea]ns?)?\s*cat(egory)?|(type|kinda?|sort)\s*(of)?\s*(speed)?\s*r[uea]ns?|\b(speed)?\s*r[uea]n\b\s*(type|is\s*this|are\s*(yo)?u\s*doing)?)
 
-(wh?at|tf)((\W?s|\s*is)\s*(he|this)?|\s*(are)?\s*((yo)?u|we)|\s*((speed)?\s*(r[uea]ns?\s*))?((is)?\s*he|are\s*you)|\s*kind\s*of)\s*((speed)?\s*run(ning)?|playing|doing?)
+(wh?at|tf)((\W?s|\s*is)\s*(he|this)?|\s*(are)?\s*((yo)?u|we)\s*(are)?|\s*((speed)?\s*(r[uea]ns?\s*))?((is)?\s*he|are\s*you)|\s*kinda?\s*of)\s*((speed)?\s*run(ning)?|playing|doing?)
 
 ^(aa|all\s*(advance?(ment)?s?|achie?vements?)|[rsf]sg|(set|random)\s*seed|any%|resetting\s*for)\s*(or.*|runs)?\?[?!]*$

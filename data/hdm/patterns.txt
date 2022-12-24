@@ -1,5 +1,5 @@
 ^hdm\?$
 
-w(h)?at([\W_]?(s)?|(\s*)is)(\s*)[\W_]?hdm[\W_]?
+wh?at(\W?s?|\s*is)\s*\W?hdm\W?
 
-w(h)?at(\s*)does(\s*)[\W_]?hdm[\W_]?(\s*)(mean|stand for)
+wh?at\s*does\s*\W?hdm\W?\s*(mean|stand\s*for)

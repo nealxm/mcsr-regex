@@ -4,6 +4,6 @@ wh?at\s*pa(c|st?)e\s(is\s*he|are\s*(we|you))\s*(on|right\s*now|rn)
 
 is(n\W?t)?\s*(this)?\s*pa(c|st?)e\s*(still|kinda)?\s*(wr|record|pb|good|crazy)
 
-(are\s*you|is\s*(he|this))\s*(still)?\s*(on)?\s*(wr|record|pb|good|crazy)?\s*pa(c|st?)e
+(are\s*you|is\s*(he|this))\s*((on)?\s*a\s*not\s*bad|(still)?\s*(on)?)\s*(wr|record|pb|good|crazy)?\s*pa(c|st?)e
 
-^(wr|record|pb|good|crazy)?\s*pa(c|st?)e\?*$
+^(wr|record|pb|good|crazy)?\s*pa(c|st?)e\?+$
