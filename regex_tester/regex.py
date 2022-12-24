@@ -1,23 +1,6 @@
-import logging
 import re
-import argparse
 
-
-class LocalFormatter(logging.Formatter):
-    def format(self, record: logging.LogRecord) -> str:
-        formats = {
-            logging.DEBUG: "\u001b[32m%(message)s\u001b[0m",
-            logging.INFO: "\u001b[36m%(message)s\u001b[0m",
-            logging.WARNING: "\u001b[31m%(message)s\u001b[0m",
-        }
-        formatter = logging.Formatter(formats[record.levelno], style="%")
-        return formatter.format(record)
-
-
-handler = logging.StreamHandler()
-handler.setFormatter(LocalFormatter())
-logging.basicConfig(level=logging.DEBUG, handlers=[handler])
-log = logging.getLogger("name")
+from regex_tester.logger import log
 
 
 def text_to_list(file_path: str) -> list[str]:
@@ -63,45 +46,9 @@ def test_message(keywords: list[str], message_in: str):
 
         for pindex, pattern in enumerate(patterns):
             if re.search(pattern, message_in, flags=re.I):
-                output = f"{output}\n\tmatched with {keyword} pattern-{pindex}"
+                output = f"{output}\n\tmatched with {keyword} pattern{pindex}"
 
     if output == f"testing \"{message_in}\" against all keywords":
         log.warning("the given message matched with no patterns")
     else:
         log.debug(output)
-
-
-if __name__ == '__main__':
-    keywords_list: list[str] = [
-        'ads',
-        'aa-overlay',
-        'category',
-        'hdm',
-        'pace',
-        'pb',
-        'runs',
-        'song',
-        'view-count',
-        'wr',
-    ]
-
-    parser = argparse.ArgumentParser(
-        description="interact with the regex repository",
-    )
-    parser.add_argument('-f', '--full',
-                        action='store_true',
-                        help="check all saved messages against regex repository"
-                        )
-    parser.add_argument('-s', '--single',
-                        metavar='message',
-                        dest='message',
-                        type=str,
-                        nargs='+',
-                        help="check one message against regex repository ")
-    parsed_args = parser.parse_args()
-
-    if parsed_args.full:
-        test_keywords(keywords_list)
-    elif parsed_args.message:
-        message = ' '.join(parsed_args.message)
-        test_message(keywords_list, message)
