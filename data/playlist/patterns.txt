@@ -1,1 +1,3 @@
 what\s*playlist\s*(is\s*this|do(es)?\s*(he|they)\s*use)
+
+is\s*(the|this)\s*playlist\s*(available|public)

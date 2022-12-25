@@ -10,7 +10,7 @@ here are a list of all the keywords provided in this repository:
 	+ [what keyboard the broadcaster is using (beta)][keyboard]
 	+ [the pace of the current run][pace]
 	+ [what the broadcasters pb is][pb]
-	+ [what playlist is currently being used][playlist]
+	+ [what playlist is currently being used (beta)][playlist]
 	+ [any interesting runs so far in the stream (beta)][runs]
 	+ [the current song (beta)][song]
 	+ [what the current world record is][wr]
