@@ -17,7 +17,8 @@ def main():
                         dest='message',
                         type=str,
                         nargs='+',
-                        help="check one message against regex repository ")
+                        help="check one message against regex repository "
+                        )
     parsed_args = parser.parse_args()
 
     if parsed_args.full:

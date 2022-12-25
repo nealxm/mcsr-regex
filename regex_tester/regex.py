@@ -44,7 +44,7 @@ def test_message(keywords: list[str], message_in: str):
             if re.search(pattern, message_in, flags=re.I):
                 output = f"{output}\n\tmatched with {keyword} pattern{pindex}"
 
-    if output == f"testing \"{message_in}\" against all keywords":
-        log.warning("the given message matched with no patterns:")
+    if output == f"testing \"{message_in}\" against all keywords:":
+        log.warning("the given message matched with no patterns")
     else:
         log.debug(output)
