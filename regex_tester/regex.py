@@ -4,12 +4,23 @@ from regex_tester.logger import log
 
 
 def text_to_list(file_path: str) -> list[str]:
+    """
+    read a text file and return a list of non-empty lines
+
+    :param file_path: path to the text file
+    :return: list of non-empty lines
+    """
     with open(file_path, mode='r') as file:
         read_list: list[str] = file.readlines()
     return [line.strip() for line in read_list if line != '\n']
 
 
-def test_all(keywords: list[str]):
+def test_all(keywords: set[str]) -> None:
+    """
+    test all patterns from given keywords against all messages in the messages.txt file
+
+    :param keywords: set of keywords to test
+    """
     passed_tests: int = 0
     failed_tests: int = 0
     fail_output: str = "\n\nthe following tests matched none of the patterns:"
@@ -40,7 +51,13 @@ def test_all(keywords: list[str]):
         log.warning(fail_output)
 
 
-def test_message(keywords: list[str], message_in: str):
+def test_message(keywords: set[str], message_in: str) -> None:
+    """
+    test all patterns from given keywords against a single message
+
+    :param keywords: set of keywords to check
+    :param message_in: message to test against patterns
+    """
     output: str = f"testing \"{message_in}\" against all keywords:"
 
     for keyword in keywords:

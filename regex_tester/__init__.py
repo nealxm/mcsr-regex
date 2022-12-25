@@ -1,4 +1,7 @@
-keywords_list: list[str] = [
+__doc__ = """
+simple cli for testing regexes against a list of stored messages or a single message
+"""
+keywords_list: set[str] = {
     'ads',
     'aa-overlay',
     'category',
@@ -9,4 +12,4 @@ keywords_list: list[str] = [
     'song',
     'view-count',
     'wr',
-]
+}
