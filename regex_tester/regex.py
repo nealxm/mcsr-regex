@@ -10,6 +10,8 @@ def text_to_list(file_path: str) -> list[str]:
 
 
 def test_all(keywords: list[str]):
+    passed_tests: int = 0
+    failed_tests: int = 0
     fail_output: str = "\n\nthe following tests matched none of the patterns:"
 
     for keyword in keywords:
@@ -18,19 +20,23 @@ def test_all(keywords: list[str]):
 
         for tindex, test in enumerate(tests):
             output: str = f"{keyword}-test{tindex}: \"{test}\""
+
             for pindex, pattern in enumerate(patterns):
                 if re.search(pattern, test, flags=re.I):
+                    passed_tests += 1
                     output = f"{output}, matched with pattern{pindex}"
 
             if output == f"{keyword}-test{tindex}: \"{test}\"":
+                failed_tests += 1
                 fail_output = f"{fail_output}\n{output}"
                 continue
+
             log.info(output)
 
-    if fail_output == "\n\nthe following tests matched none of the patterns:":
-        fail_output = "\n\nall tests matched with a pattern!"
-        log.debug(fail_output)
+    if failed_tests == 0:
+        log.debug(f"\n\nall {passed_tests} tests matched with a pattern!")
     else:
+        log.warning(f"only {passed_tests} tests passed, there were {failed_tests} that did not")
         log.warning(fail_output)
 
 
