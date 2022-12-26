@@ -1,3 +1,5 @@
 what((\W?s|\s*is)\s*(this|the(\s*name\s*of\s*the)?)\s*song|\s*song\s*is\s*(this|playing))
 
-^song(\s*name)?\?+
+(any|some)(one|body)\s*know\s*(the)?\s*(current)?\s*song
+
+^song\s*(name)?\s*\?+$
