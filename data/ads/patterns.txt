@@ -1,1 +1,1 @@
-(i\s*got\s*(an?)?\s*|stupid\s*|^)\d*\s*(a+d+v*(ert)?(i[sz]ement)?s*|commercials?)\b
+(i\s*got\s*(an?)?\s*|stupid\s*|so\s*many|^)\d*\s*(a+d+v*(ert)?(i[sz]ement)?s*|commercials?)\b
