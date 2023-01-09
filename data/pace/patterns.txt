@@ -1,13 +1,13 @@
-how(\W?s|\s*is)?\s*(the|this)?\s*(pa(c|st?)e|run)
+how(\W?s|\s*is)?\s*(the|this)?\s*(pa(c|st?)e|(the|this)\s*r[uea]n)
 
 wh?at\s*pa(c|st?)e\s(is\s*he|are\s*(we|you))\s*(on|right\s*now|rn)
 
-((can|will)\s*it|is(n\W?t)?\s*(this)?\s*(pa(c|st?)e)?\s*(still|kinda)?)\s*(wr|record|pb|good|crazy)
+((can|will)\s*it|is(n\W?t)?\s*(this)?\s*(pa(c|st?)e)\s*(still|kinda)?)\s*(wr|record|pb|good|crazy)
 
-(are\s*you|is\s*(he|this\s*(run)?))\s*((on)?\s*a\s*not\s*bad|(still)?\s*(on)?|(anywhere)?\s*near)\s*(wr|record|pb|good|crazy)?\s*pa(c|st?)e
+is\s*this\s*(still)?\s*an?\s*(good|okay|pace)\s*((speed)?\s*r[uea]n|pa(c|st?)e)
 
-is\s*this\s*(still)?\s*an?\s*(good|okay|pace)\s*((speed)?\s*run|pa(c|st?)e)
+(are\s*you|is\s*(he|this\s*(r[uea]n)?))\s*((on)?\s*a\s*not\s*bad|(still)?\s*(on)?|(anywhere)?\s*near)\s*(wr|record|pb|good|crazy)?\s*pa(c|st?)e
 
-^(this\s*)?(wr|record|pb|good|crazy)?\s*(pa(c|st?)e|run)\s*(or.*)?\?+[?!]+$
+^(this\s*)?(wr|record|pb|good|crazy)?\s*(pa(c|st?)e|r[uea]n)\s*(or.*)?\s*\?[?!]*$
 
 sub\d+\s*(still)?\s*possible\?+

@@ -8,4 +8,4 @@
 
 (wh?at|tf)((\W?s|\s*is)\s*(he|this)?|\s*(are)?\s*((yo)?u|we)\s*(are)?|\s*((speed)?\s*(r[uea]ns?\s*))?((is)?\s*he|are\s*you)|\s*kinda?\s*of)\s*((speed)?\s*run(ning)?|playing|doing?)
 
-^(aa|all\s*(advance?(ment)?s?|achie?vements?)|[rsf]sg|(set|random|filtered)\s*seed|any%|resetting\s*for)\s*(or.*|runs)?\s*\?[?!]*$
+^(aa|all\s*(advance?(ment)?s?|achie?vements?)|[rsf]sg|(set|random|filtered)\s*seed|any%|resetting\s*for)\s*(or.*|runs|chat)?\s*\?[?!]*$
