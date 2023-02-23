@@ -1,6 +1,6 @@
 ((are|r)\s*(these|(yo)?u\s*(going\s*for|doing))|is\s*(it|(th|d)is))\s*(only|normal|like.*)?\s*(aa|(all)?\s*(advance?(ment)?s?|achie?vements?)|[rsf]sg|(set|random|filtered)\s*seed|any%)
 
-((we)?\s*doing?|(th|d)is\s*(is)?|it\s*is|going\s*for|running|its)\s*.*\s*((an?)?\s*(aa|all\s*advance?(ment)?s?|achie?vements?)|[rsf]sg|(set|random|filtered)\s*seed|any%)\s*(on\s*this|(speed)?\s*r[uea]ns?)?\s*(right$|\W*(chat|right|today\s*(or.*)?)?\s*\?+)
+((we)?\s*doing?|(th|d)is\s*(is)?|it\s*is|going\s*for|running|its)\s*((a|like).*)?\s*((an?)?\s*(aa|all\s*advance?(ment)?s?|achie?vements?)|[rsf]sg|(set|random|filtered)\s*seed|any%)\s*(on\s*this|(speed)?\s*r[uea]ns?)?\s*(right$|\W*(chat|right|today)?\s*(or.*)?\s*\?+)
 
 (are|is)\s*((th|d)is|(yo)?u|he)\s*(doing|running|playing|going\s*for)\s*(an?|the)?\s*(aa|all\s*(advance?(ment)?s?|achie?vements?)|[rsf]sg|(set|random|filtered)\s*seed|any%)
 

@@ -1,7 +1,7 @@
 (you\s*have|there(\W?s|\s*is|\s*are))\s*(\d+|many)\s*(less|more)?\s*(view(er)?s|people\s*watching)\s*th[ae]n
 
-(\d+|many)\s*(viewers|(people)?\s*(watching|are\s*watching))
+(\d+k?|many)\s*(viewers|(people)?\s*(watching|are\s*watching|now))
 
-(view(er)?s?\s*(count)?)\s*((is|are)\s*at\s*\d+|(just\s*(doubled|halved|increased|decreased)))
+(view(er)?s?\s*(count)?)\s*((is|are)\s*at\s*\d+k?|(just\s*(doubled|halved|increased|decreased)))
 
-(low|high)\s*view(er)?s?\s*count\?
+(low|high|\d+k?)\s*view(er)?s?\s*count\?

@@ -1,1 +1,1 @@
-(how\s*(are|have)\s*(the)?|any\s*(good)?)\s*runs\s*(\?|today|tonight|going|so\s*far|been)
+(how\s*(are|have|goes)\s*(the)?|any\s*(good)?)\s*runs\s*(\?|today|tonight|going|so\s*far|been)

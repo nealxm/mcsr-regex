@@ -11,3 +11,7 @@ is\s*this\s*(still)?\s*an?\s*(good|okay|pace)\s*((speed)?\s*r[uea]n|pa(c|st?)e)
 ^(this\s*)?(wr|record|pb|good|crazy)?\s*(pa(c|st?)e|r[uea]n)\s*(or.*)?\s*\?[?!]*$
 
 sub\d+\s*(still)?\s*possible\?+
+
+is\s*th(e|is)\s*pa[sc]e\s*(still)?\s*(good|okay|wr|pb)
+
+how\s*(decent|good|great)\s*(of)?\s*pa[sc]e\s*is\s*this
