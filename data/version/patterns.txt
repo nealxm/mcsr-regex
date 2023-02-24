@@ -1,0 +1,5 @@
+(which|what(\s*is|\W?s)?\s*(the)?)\s*version(\?|$)
+
+(is\s*this|are\s*you\s*playing)\s*1.16(.1)?
+
+^1.16(.1)?\s*\?+$
