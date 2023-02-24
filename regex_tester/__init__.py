@@ -9,6 +9,7 @@ keywords_list: list[str] = [
     'playlist',
     'runs',
     'song',
+    'timer',
     'version',
     'view-count',
     'wr',
