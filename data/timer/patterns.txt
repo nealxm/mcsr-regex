@@ -1,3 +1,3 @@
-where(\W?(s|d)|\s*is|\s*did)?(\s*the)?\s*timer(\s*go)?
+where(\W?(s|d)|\s*(is|did))?\s*(the)?\s*timer
 
-(no)?\s*(\s*timer)\s*(on\s*screen|on\s*stream|\?+$)
+(no)?\s*timer\s*(on\s*(screen|stream)|\?+$)
