@@ -3,3 +3,5 @@ what\s*playlist\s*(is\s*this|do(es)?\s*(he|they)\s*use)
 is\s*(the|this)\s*playlist\s*(available|public)
 
 ^playlist\?+$
+
+where\s*(is)?\s*(the)?\s*playlist\s*(@|at)

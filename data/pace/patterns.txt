@@ -8,7 +8,7 @@ is\s*this\s*(still)?\s*an?\s*(good|okay|pace)\s*((speed)?\s*r[uea]n|pa(c|st?)e)
 
 (are\s*you|is\s*(he|this\s*(r[uea]n)?))\s*((on)?\s*a\s*not\s*bad|(still)?\s*(on)?|(anywhere)?\s*near)\s*(wr|record|pb|good|crazy)?\s*pa(c|st?)e
 
-^(this\s*)?(wr|record|pb|good|crazy)?\s*(pa(c|st?)e|r[uea]n)\s*(or.*)?\s*\?[?!]*$
+^(this\s*(is)?\s*)?(wr|record|pb|good|crazy)?\s*(pa(c|st?)e|r[uea]n)[\s\W]*(right|or.*)?\s*\?[?!]*$
 
 sub\d+\s*(still)?\s*possible\?+
 
