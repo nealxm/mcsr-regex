@@ -1,3 +1,3 @@
-^wh?at(\W?s|\s*is)?\s*((yo)?ur?|you\W?re|his|this\s*guy\W?s)?\s*(the|current)?\s*(\bp[br]\b|personal\s*(best|record))|(best|fastest)\s*(time|(speed)?\s*run)
+^wh?at(\W?s|\s*is)?\s*((yo)?ur?|you\W?re|his|this\s*guy\W?s)?\s*(the|current)?\s*((\bp[br]\b|personal\s*(best|record))|(best|fastest)\s*(time|(speed)?\s*run))
 
 ^(p[br]|personal\s*(best|record))\?+$
