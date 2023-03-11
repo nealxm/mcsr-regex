@@ -1,4 +1,4 @@
-((are|r)\s*(these|(yo)?u\s*(going\s*for|doing))|is\s*(it|(th|d)is))\s*(only|normal|like.*)?\s*(aa|(all)?\s*(advance?(ment)?s?|achie?vements?)|[rsf]sg|(set|random|filtered)\s*seed|any%)
+((are|r)\s*(these|(yo)?u\s*(going\s*for|doing))|is\s*(it|(th|d)is))\s*(1\.\d{1,2}|only|normal|like.*)?\s*(aa|(all)?\s*(advance?(ment)?s?|achie?vements?)|[rsf]sg|(set|random|filtered)\s*seed|any%)
 
 ((we)?\s*doing?|(th|d)is\s*(is)?|it\s*is|going\s*for|running|its)\s*((a|like).*)?\s*((an?)?\s*(aa|all\s*advance?(ment)?s?|achie?vements?)|[rsf]sg|(set|random|filtered)\s*seed|any%)\s*(on\s*this|(speed)?\s*r[uea]ns?)?\s*(right$|\W*(chat|right|today)?\s*(or.*)?\s*\?+)
 
