@@ -1,5 +1,5 @@
-(which|what(\s*is|\W?s)?\s*(the)?)\s*version\s*(\?|$|is\s*he\s*(playing)?\s*(on)?)
+(which|what((\s*is|\W?s)?\s*(the)?)?)\s*version\s*(\?|$|is\s*(this|he\s*(playing)?\s*(on)?))
 
-(is\s*this|are\s*you\s*playing)\s*1.16(.1)?
+(is\s*this|are\s*you\s*playing)\s*\d+.\d+(.\d+)?
 
-^1.16(.1)?\s*\?+$
+^(\d+.\d+(.\d+)?|version)\s*\?+$
