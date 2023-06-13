@@ -1,5 +1,5 @@
 # mcsr regex
-###### *compiled and developed by neal#0001*
+###### *compiled and developed by @nealxm on discord*
 #### a collection of regex patterns enabling automatic responses to some of the most commonly asked questions in mcsr twitch chats. i hope that some of these can help you in your chat, or a chat you moderate.
 
 here are a list of all the keywords provided in this repository:
@@ -47,12 +47,12 @@ after helping fix the problem, i will also add the message you have found to the
 please do feel free to suggest new regex patterns/keywords to be developed in future or any changes you would like to how this repository or how it is organized :)
 
 ## contributors
-anyone who has developed anything from these regex patterns:
+anyone who has developed anything from these regex patterns: (all discord usernames)
 
-+ **calomena#0001**
-+ **Isabel#7551**
-+ **lizzie#0099**
-+ **Maxim#4753**
++ **@calomena**
++ **@isabelcoolaf**
++ **@eiizie**
++ **@pacmanmvc**
 
 [aa-overlay]: https://github.com/nealxm/mcsr-regex/blob/master/data/aa-overlay/patterns.txt
 [category]: https://github.com/nealxm/mcsr-regex/blob/master/data/category/patterns.txt
