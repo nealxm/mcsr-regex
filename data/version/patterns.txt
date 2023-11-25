@@ -1,4 +1,4 @@
-(which|what((\s*is|\W?s)?\s*(the)?)?)\s*(mc)?\s*version\s*(\?|$|(is\s*(he|(th|d)is)|are\s*you)\s*(playing|running)?\s*(on)?)
+(which|what((\s*is|\W?s)?\s*(the)?)?)\s*(mc)?\s*version\s*(\?|$|(is\s*(he|(th|d)is|it)|are\s*(you|we))\s*(playing|running)?\s*(on)?)
 
 (is\s*this|are\s*you\s*(playing|running))\s*\d+\.\d+(\.\d+)?\s*\?*$
 

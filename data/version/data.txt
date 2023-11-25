@@ -7,3 +7,5 @@ version?
 what version is this
 what mc version is dis
 what version are you running? @Feinberg
+what version is it on?
+what version are we playing?
