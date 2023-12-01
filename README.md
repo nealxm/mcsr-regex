@@ -7,14 +7,15 @@ here are a list of all the keywords provided in this repository:
 	+ [why all advancements overlay is not enabled][aa-overlay]
 	+ [the current category being played][category]
 	+ [what hdm stands for in aa speedruns][hdm]
-	+ [what keyboard the broadcaster is using (beta)][keyboard]
+	+ [what keyboard the broadcaster is using][keyboard]
 	+ [the pace of the current run][pace]
 	+ [what the broadcasters pb is][pb]
-	+ [what playlist is currently being used (beta)][playlist]
-	+ [any interesting runs so far in the stream (beta)][runs]
-	+ [the current song (beta)][song]
-	+ [where the timer is (beta)][timer]
-	+ [the version being currently played (beta)][version]
+	+ [what playlist is currently being used][playlist]
+	+ [any interesting runs so far in the stream][runs]
+	+ [the current song][song]
+	+ [what texture pack is being used][texture-pack]
+	+ [where the timer is][timer]
+	+ [the version being currently played][version]
 	+ [what the current world record is][wr]
 + mentions of
 	+ [ads][ads]
@@ -63,6 +64,7 @@ anyone who has developed anything from these regex patterns: (all discord userna
 [playlist]: https://github.com/nealxm/mcsr-regex/blob/master/data/playlist/patterns.txt
 [runs]: https://github.com/nealxm/mcsr-regex/blob/master/data/runs/patterns.txt
 [song]: https://github.com/nealxm/mcsr-regex/blob/master/data/song/patterns.txt
+[texture-pack]: https://github.com/nealxm/mcsr-regex/blob/master/data/texture-pack/patterns.txt
 [timer]: https://github.com/nealxm/mcsr-regex/blob/master/data/timer/patterns.txt
 [version]: https://github.com/nealxm/mcsr-regex/blob/master/data/version/patterns.txt
 [wr]: https://github.com/nealxm/mcsr-regex/blob/master/data/wr/patterns.txt
