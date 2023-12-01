@@ -12,6 +12,7 @@ keywords_list: set[str] = {
     'playlist',
     'runs',
     'song',
+    'texture-pack',
     'timer',
     'version',
     'view-count',
